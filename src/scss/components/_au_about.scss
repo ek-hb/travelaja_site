@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px 0px 50px;
+}
+.about_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 780px;
+  h1 {
+    @include h1;
+    color: var(--gray-color);
+    font-weight: 700;
+    font-size: 27.65px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  p {
+    @include p;
+    color: var(--gray-color);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+.about_img {
+  margin-left: 100px;
+}

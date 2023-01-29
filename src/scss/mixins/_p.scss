@@ -1,0 +1,10 @@
+@mixin p {
+  ont-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--white-color);
+}

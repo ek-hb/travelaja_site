@@ -1,0 +1,49 @@
+.travelers_point {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 110px 50px 0px 50px;
+}
+.travelers_point_item {
+  display: flex;
+  flex-direction: row;
+}
+.travelers_point_item_text {
+  margin-left: 20px;
+  h3 {
+    @include fond_style;
+    color: var(--green-color);
+  }
+  h2 {
+    @include fond_style;
+    font-size: 27.65px;
+    line-height: 120%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  p {
+    @include p;
+    color: var(--gray-color);
+    text-align: left;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    #start {
+      margin-right: 225px;
+    }
+    li {
+      list-style-type: none;
+      h4 {
+        color: var(--green-color);
+        font-size: 27.65px;
+        margin-bottom: 5px;
+      }
+      p {
+        @include p;
+        color: var(--gray-color);
+      }
+    }
+  }
+}

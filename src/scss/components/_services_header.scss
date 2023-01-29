@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 49px 0px 49px;
+  .nav_item {
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    @include nav_a;
+    color: var(--color-gray);
+  }
+  .language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    span {
+      color: var(--color-gray);
+      font-weight: 700;
+      padding: 0px 10px 0px 10px;
+    }
+  }
+}

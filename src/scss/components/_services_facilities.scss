@@ -1,0 +1,66 @@
+.services_facilities {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 144px 0px;
+  background-size: cover;
+  width: 100%;
+}
+.services_facilities_text {
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  margin-top: 140px;
+  margin-left: 50px;
+  h1 {
+    @include h1;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  p {
+    @include p;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .button {
+    width: 127px;
+    height: 49px;
+    background-color: var(--light_green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white-color);
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+.services_facilities_item {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 87px 0px 87px 20px;
+  width: 580px;
+  height: 376px;
+}
+.services_facilities_item_card {
+  width: 280px;
+  height: 178px;
+  background-color: var(--white-color);
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 15px;
+  color: var(--gray-color);
+  img {
+    padding-top: 24px;
+  }
+  h1 {
+    font-size: 39.81px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  p {
+    margin-top: 0px;
+  }
+}

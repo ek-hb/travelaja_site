@@ -1,0 +1,72 @@
+.services_benefits {
+  display: flex;
+  flex-direction: column;
+}
+.services_benefits_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    @include p;
+    color: var(--gray-color);
+    margin-bottom: 0px;
+  }
+  h1 {
+    @include h1;
+    color: var(--gray-color);
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+.services_benefits_item {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: 36px 50px 100px 50px;
+}
+.services_benefits_item_card {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  img {
+    width: 48px;
+    height: 48px;
+    padding-right: 14px;
+    padding-top: 20px;
+  }
+}
+.services_benefits_item_card_text {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    @include h1;
+    color: var(--gray-color);
+    font-weight: 700;
+    font-size: 27.65px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  p {
+    @include p;
+    color: var(--gray-color);
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  button {
+    width: 127px;
+    height: 39px;
+    background-color: var(--light_green);
+    color: var(--white-color);
+    border-radius: 8px;
+    border: none;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}

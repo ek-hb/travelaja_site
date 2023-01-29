@@ -1,0 +1,8 @@
+@mixin fond_style {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 180%;
+  color: var(--gray-color);
+}

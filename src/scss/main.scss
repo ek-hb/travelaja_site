@@ -1,0 +1,27 @@
+// базові подключения
+@import "vars";
+@import "mixins";
+@import "settings";
+
+// підключення компонентів до сторінки
+@import "./components/header";
+@import "./components/services_header";
+@import "./components/services_facilities";
+@import "./components/services_main";
+@import "./components/services_benefits";
+@import "./components/discover_header";
+@import "./components/news_header";
+@import "./components/news_main";
+@import "./components/testimonial";
+@import "./components/top_destination";
+@import "./components/discover_main";
+@import "./components/travelers_point";
+@import "./components/footer";
+@import "./components/media";
+@import "./components/about_us_header";
+@import "./components/au_whyChoose";
+@import "./components/au_about";
+@import "./components/au_ourTeams";
+@import "./components/au_other";
+@import "./components/contact_header";
+@import "./components/get_in_touch";

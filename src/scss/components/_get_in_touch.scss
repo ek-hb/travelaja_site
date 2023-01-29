@@ -1,0 +1,108 @@
+.get_in_touch {
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  margin: 111px 50px 100px 50px;
+}
+.get_in_touch_text {
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  margin-right: 20px;
+  h1 {
+    @include h1;
+    color: var(--gray-color);
+    text-align: left;
+    font-weight: 700;
+    font-size: 27.65px;
+    margin-bottom: 10px;
+  }
+  p {
+    @include p;
+    color: var(--gray-color);
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .form {
+    p {
+      @include p;
+      color: var(--gray-color);
+      text-align: left;
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    input {
+      width: 551px;
+      height: 57px;
+      border-radius: 10px;
+      border: 1px solid gray;
+      padding-left: 29px;
+    }
+  }
+  .message {
+    textarea {
+      width: 560px;
+      height: 178px;
+      text-align: start;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+  }
+  button {
+    width: 81px;
+    height: 39px;
+    border-radius: 8px;
+    background-color: var(--light_green);
+    color: var(--white-color);
+    border: none;
+    margin-top: -4px;
+  }
+}
+button:hover {
+  cursor: pointer;
+}
+
+.get_in_touch_item {
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  .get_in_touch_table {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 50px 0px -30px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      margin-bottom: 21px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .p {
+    width: 178px;
+    justify-content: flex-end;
+    @include p;
+    color: var(--gray-color);
+    font-size: 16px;
+  }
+  h3 {
+    @include p;
+    color: var(--gray-color);
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  h1 {
+    @include h1;
+    color: var(--gray-color);
+    text-align: left;
+    font-size: 68.8032px;
+    margin-top: 0px;
+  }
+}

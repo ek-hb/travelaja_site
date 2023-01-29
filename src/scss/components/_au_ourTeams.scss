@@ -1,0 +1,49 @@
+.our_teams {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 50px 100px 50px;
+  .our_teams_text {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      @include h1;
+      color: var(--gray-color);
+      text-align: left;
+      font-weight: 700;
+      font-size: 27.65px;
+      margin-bottom: 5px;
+    }
+    p {
+      @include p;
+      color: var(--gray-color);
+      text-align: left;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+  .our_teams_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    .our_teams_item_card {
+      h3 {
+        @include h1;
+        color: var(--black-color);
+        font-size: 19.2px;
+        text-align: left;
+        margin-bottom: 2.5px;
+      }
+      h3:hover {
+        cursor: pointer;
+      }
+      p {
+        @include p;
+        color: var(--gray-color);
+        text-align: left;
+        font-size: 16px;
+        margin-top: 2.5px;
+      }
+    }
+  }
+}
